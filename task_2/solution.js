@@ -42,7 +42,7 @@ function calcDiscount(sum, min, discount) {
     // если productsSum больше или равно discountMinSum,
     // то присвойте discountSum значение discountPart процентов от productsSum,
     // иначе присвойте discountSum значение 0
-    let discountSum = discountPart / 100 * productsSum;
+    let discountSum = 0;
     if (productsSum >= discountMinSum) {
         discountSum = discountPart / 100 * productsSum;
     } else {
